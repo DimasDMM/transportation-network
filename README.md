@@ -1,14 +1,14 @@
-# Infection simulation in a transportation network
+# Infection simulation in a transport network
 
 ## Introduction
 
-Due to the COVID-19 pandemic, I was interested in how a virus would spread in a transportation network. It is particularly interesting to see how central hubs contribute to spread the infection and which times are *the most dangerous* to travel.
+Due to the COVID-19 pandemic, I was interested in how a virus would spread in a transport network. It is particularly interesting to see how central hubs contribute to spread the infection and which times are *the most dangerous* to travel.
 
 In order to observe how a virus spreads in a network, in this project I run a one-day simulation based on the passenger flow.
 
 ## Data
 
-In this project, I have used the data of the **Renfe Cercanias** transportation network in **Madrid (Spain)**, but you can run the code using your own network (bus, flights, ...).
+In this project, I have used the data of the **Renfe Cercanias** transport network in **Madrid (Spain)**, but you can run the code using your own network (bus, flights, ...).
 
 Turnstiles data, route timetables and station locations:
 - http://crtm.maps.arcgis.com/home/item.html?id=1a25440bf66f499bae2657ec7fb40144
