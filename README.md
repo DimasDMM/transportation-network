@@ -45,7 +45,7 @@ The passenger who are in a train:
 
 You can see a short animation of the passengers flow (some nodes suddenly become blue/gray when a train arrives to the node and takes the passengers waiting for it): [./images/flow-sim.gif](./images/flow-sim.gif)
 
-### Infectation
+### Infection
 
 I have used a SEI Model which consists of 3 states:
 - Susceptible (S): a healthy person who can be infected.
@@ -72,19 +72,19 @@ There are some additional constraints to take into account:
 
 Please, take a look to the notebook [NetworkSimulation](./notebooks/NetworkSimulation.ipynb) for further details about **parameters** and **additional results**.
 
-After running the simulation, I noticed that the most infectation happen not only in central hubs (as I expected) but also in stations where passengers wait for a long time:
+After running the simulation, I noticed that the most infection happen not only in central hubs (as I expected) but also in stations where passengers wait for a long time:
 
 <p align="center">
   <img src="./images/madrid-cercanias-map-top10.png">
 </p>
 
-Here are the top 20 stations with more infectations:
+Here are the top 20 stations with more infections:
 
 <p align="center">
   <img src="./images/madrid-cercanias-stats-top20.png">
 </p>
 
-Furthermore, it is interesting to see how the most infectations happen during peak hours:
+Furthermore, it is interesting to see how the most infections happen during peak hours:
 
 <p align="center">
   <img src="./images/madrid-infection-timeline.png">
