@@ -1,0 +1,4 @@
+notebooks/.ipynb_checkpoints/
+notebooks/lib/__pycache__/
+data/images/*
+data/parsed/*
