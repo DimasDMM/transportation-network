@@ -43,7 +43,7 @@ The passenger who are in a train:
 1. Leave the network (arrival to destination) depending on the *out-weight* of the station and time.
 2. Stay in the train or change to other platform depending on the weight of the platforms.
 
-You can see a short animation of the passengers flow (some nodes suddenly become blue/gray when a train arrives to the node and takes the passengers waiting for it): [./images/flow-sim.gif](./images/flow-sim.gif)
+You can see a **short animation of the passengers flow** (some nodes suddenly become blue/gray when a train arrives to the node and takes the passengers waiting for it): [./images/flow-sim.gif](./images/flow-sim.gif)
 
 ### Infection
 
@@ -58,7 +58,7 @@ Then, an infected individual may infect others with a certain probability `p` to
 - When s/he is waiting for a train in a platform.
 - When s/he is traveling in a train.
 
-In the following animation, you can see the total number of infected/exposed passengers in the network: [./images/infect-sim.gif](./images/infect-sim.gif)
+Here is **an animation** where you can see the **total number of infected/exposed passengers** in the network: [./images/infect-sim.gif](./images/infect-sim.gif)
 
 ### Additionial constrains/limitations
 
