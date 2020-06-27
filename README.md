@@ -35,11 +35,11 @@ In order to simulate the flow in a realistic way, I have used the turnstiles dat
 
 At each time step, a certain number of passengers join the network randomly:
 1. Depending on the time, `N` passengers join the network. That is, if it is a peak hour, more passengers will join it.
-2. Each passenger is assigned to a station randomly (origin station) depending on the *in-weight* of the station and time.
-3. Each passenger (randomly) goes to a platform in the station depending on the weight of that platform. The weight depends on the sum of *in-weights* of the next stations.
+2. Each passenger is assigned to a station randomly (origin station) depending on the *in-weight* of the station/time.
+3. Each passenger randomly goes to a platform in the station depending on the weight of the platforms. Note that the weight of a platform depends on the sum of *in-weights* of the next stations.
 4. Finally, the passengers waits in the platform until a train arrives.
 
-The passenger who are in a train:
+The passengers who are in a train:
 1. Leave the network (arrival to destination) depending on the *out-weight* of the station and time.
 2. Stay in the train or change to other platform depending on the weight of the platforms.
 
